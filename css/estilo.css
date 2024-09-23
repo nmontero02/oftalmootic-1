@@ -1,0 +1,1130 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+body{
+
+    width: 100%;
+    height: 25% 25% 25% 25%;
+    display: flex;
+    flex-flow: column;
+    flex-wrap: wrap;
+    
+}
+    /* ? ------------- header ------------- */
+header{
+    width: 50% 50%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    flex-flow:column row;
+    padding: 10px 20px;
+}
+.logotipo{
+
+
+}
+.caja_logo{
+position: relative;
+top: 2vh;
+
+
+
+}
+.boton_citas{
+
+    color: #050449;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1rem;
+    font-weight: bold;
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    background-color: rgb(166, 213, 166);
+    align-items: center;
+    border-style: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding-left: 5px;
+    padding-right: 5px;
+
+    }
+    .boton_citas:hover{
+        background-color: rgb(100, 110, 250);
+    }
+    /* ? ------------- nav ------------- */
+nav{
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+    justify-content: end;
+    position: relative;
+    padding:1.5vh;
+    height: 100%;
+
+    
+}
+
+nav ul li{
+    display: inline;
+    margin: 8px;
+    color: #050449;
+    font-size: 1.2em;
+    font-weight: bold
+}
+nav ul a{
+    text-decoration: none;
+    color: #050449;
+
+   
+}
+    /* ? ------------- section ------------- */
+section{
+    background-color:  rgb(166, 213, 166);
+    width: 100%;
+    height: 33% 33% 33%;
+    display: flex;
+    flex-flow:column wrap;
+    padding: 0px;
+    align-content: space-around;
+    box-sizing: border-box;
+    
+}
+
+/* ? ------------- section/contenedor 1 ------------- */
+.contenedor1_section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+
+}
+.imag_principal{
+    width: 100vw;
+    height:auto;
+    background-size: cover;
+}
+
+/* ? ------------- section/recomendaciones ------------- */
+.caja2{
+
+    padding: 20px;
+    margin-bottom: 20px;
+    position: relative;
+    box-sizing: border-box;
+    color: #050449;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+
+   
+}
+.titulo_c2{
+    width: 100%;
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+
+}
+.caja2 p{
+    font-size: 1.2rem;
+    padding-left: 2rem;
+    font-style: italic;
+    padding-bottom: 5px;
+
+
+}
+.videogq{
+    width: 100vw;
+    height: auto;
+    justify-content: center;
+    position: relative;
+    box-sizing: border-box;
+    display: flex;
+
+
+}
+
+    /* ? ------------- tarjeta/los mas populares ------------- */
+
+.titulos{
+    
+    padding: 40px;
+    text-align: center;
+    width: 100%;
+    color: #050449;
+        
+        
+}
+.t_principal{
+    width: 100%;
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.contenedor1{
+    width: 100%;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    gap: 15px;
+    padding-top: 5vh;
+    padding-bottom: 10vh;
+
+
+}
+.imagen{
+    margin-top: 10px;
+    align-items: center;
+
+}
+.tamano{
+    width: 200px;
+    height: 180px;
+}
+
+.li_montura1{
+   
+    color: rgb(64, 221, 168);
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.li_montura2{
+    
+    color: rgb(233, 85, 22);
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.li_montura3{
+    
+    color: rgb(250, 180, 39);
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.li_montura4{
+    
+    color: rgb(165, 21, 172);
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.tarjeta{
+
+    width:250px;
+    height: 400px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    align-items: center;
+    color: rgb(84, 84, 81);
+    box-shadow: 3px 3px 5px #888585;
+    border-radius: 1px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+
+
+}
+
+.texto{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.detalles{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.price1{
+    font-size: 24px;
+    margin: 10px;
+    color: rgb(64, 221, 168);
+    font-weight: 600;
+    
+}
+
+.price2{
+    font-size: 24px;
+    margin: 10px;
+    color: rgb(233, 85, 22);
+    font-weight: 600;
+    
+}
+
+.price3{
+    font-size: 24px;
+    margin: 10px;
+    color: rgb(250, 180, 39);
+    font-weight: 600;
+    
+}
+.price4{
+    font-size: 24px;
+    margin: 10px;
+    color: rgb(165, 21, 172);
+    font-weight: 600;
+    
+}
+
+.estrella{
+    cursor: pointer;
+}
+.resena{
+    cursor: pointer;
+    border-radius: 30px;
+    gap: 4px;
+    flex-direction: row-reverse;
+}
+.resena input{
+    width: 15px;
+    height: 15px;
+    appearance: none;
+    -webkit-appearance: none;
+
+}
+.resena input::before{
+    content: '\f005';
+    position: relative;
+    font-family: fontAwesome;
+    font-size: 20px;
+    color: #111;
+    transition: .5s;
+
+}
+.resena input:hover ~ input::before, 
+.resena input:hover::before,
+.resena input:checked ~ input::before, 
+.resena input:checked::before{
+    color: yellow;
+}
+
+.boton_a{
+    background-color: rgb(64, 221, 168);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    margin-top: 10px;
+    cursor: pointer;
+    
+}
+.boton1{
+    background-color: rgb(64, 221, 168);
+    padding: 10px;
+    border-style: none;
+    border: none;
+    border-radius: 5px;
+    color: rgb(243, 240, 240);
+    cursor: pointer;
+
+}
+
+
+.boton_b{
+    background-color: rgb(233, 85, 22);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    margin-top: 10px;
+    cursor: pointer;
+    
+}
+.boton2{
+
+    background-color: rgb(233, 85, 22);
+    padding: 10px;
+    border-style: none;
+    border: none;
+    border-radius: 5px;
+    color: rgb(245, 246, 245);
+    cursor: pointer;
+
+}
+.boton_c{
+    background-color: rgb(250, 180, 39);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    margin-top: 10px;
+    cursor: pointer;
+    
+}
+.boton3{
+    background-color: rgb(250, 180, 39);
+    padding: 10px;
+    border-style: none;
+    border: none;
+    border-radius: 5px;
+    color: rgb(245, 246, 245);
+    cursor: pointer;
+
+
+}
+.boton_d{
+    background-color: rgb(165, 21, 172);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    margin-top: 10px;
+    cursor: pointer;
+    
+}
+.boton4{
+    background-color: rgb(165, 21, 172);
+    padding: 10px;
+    border-style: none;
+    border: none;
+    border-radius: 5px;
+    color: rgb(243, 240, 240);
+    cursor: pointer;
+
+}
+.tarjeta:hover .price1{
+    color: rgb(72, 72, 69);
+    
+}
+.tarjeta:hover .boton1{
+    
+    background-color: rgb(72, 72, 69);
+}
+.tarjeta:hover .boton_a{
+    
+    background-color: rgb(72, 72, 69);
+}
+
+.tarjeta:hover .price2{
+    color: rgb(36, 22, 233);
+}
+.tarjeta:hover .boton2{
+    background-color: rgb(36, 22, 233);
+}
+.tarjeta:hover .boton_b{
+    background-color: rgb(36, 22, 233);
+}
+
+.tarjeta:hover .price3{
+    color: rgb(141, 21, 205);
+}
+.tarjeta:hover .boton3{
+    background-color: rgb(141, 21, 205);
+}
+.tarjeta:hover .boton_c{
+    background-color: rgb(141, 21, 205);
+}
+.tarjeta:hover .price4{
+    color: rgb(75, 225, 62);
+    
+}
+.tarjeta:hover .boton4{
+    
+    background-color: rgb(75, 225, 62);
+}
+.tarjeta:hover .boton_d{
+    
+    background-color: rgb(75, 225, 62);
+}
+
+    /* ? ------------- footer ------------- */
+footer{
+    border: solid 10px #050449;
+    width: auto;
+    height: auto;
+    background-color:#050449;    ;
+    color: rgb(166, 213, 166);
+    display: flex;
+    flex-flow:column wrap;
+    align-items: center;
+    padding-top: 50px;
+    position: flex;
+    top: 350px;
+   
+}
+.caja_footer{
+    align-items: center;
+    box-sizing: border-box;
+    width: auto;
+    height: auto;
+    margin: 5px;
+    background-color:#050449;
+    color: rgb(166, 213, 166);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    position: relative;
+    
+   
+}
+
+.caja1_footer p{
+    margin-bottom: 16px;
+    position: relative;
+
+
+}
+.direccion_footer{
+    color: rgb(166, 213, 166);
+
+}
+.contacto_footer{
+
+    color: rgb(166, 213, 166);
+}
+.caja_suscribe_footer{
+    width: auto;
+    height: auto;
+    font-size: 1em;
+    font-weight: bold;
+    align-items: flex-end;
+
+}
+.completar{
+    color: rgb(166, 213, 166);
+    background-color: #050449;
+    width: auto;
+    padding: 10px;
+    border-style: solid;
+    border:2px solid rgb(166, 213, 166);
+    border-radius: 5px;
+}
+.botton_suscribe{
+    background-color: rgb(166, 213, 166);
+    padding: 10px;
+    border-style: none;
+    border: none;
+    border-radius: 5px;
+    color: rgb(243, 240, 240);
+    font-weight: bold;
+    cursor: pointer;
+}
+.botton_suscribe:hover{
+    background-color: rgb(72, 208, 34);
+}
+.copyright{
+    margin-bottom: 5px;
+    margin-top: 20px;
+    font-size: 1em;
+    font-weight: bold;
+    align-items: flex-end;
+    position: relative;
+
+
+}
+footer li{
+    list-style-type: none;
+    margin: 10px;
+
+}
+footer ul li{
+
+    margin: 5px;
+    color: rgb(166, 213, 166);  
+}
+.redes_sociales ul li{
+    display: inline;
+}
+
+    /* ? ------------- nosotros ------------- */
+
+
+.caja1_nosotros{
+    background-color:rgb(166, 213, 166);
+    box-sizing: border-box;
+    display: flex;
+    flex-flow:wrap;
+    position: relative;
+    justify-content: space-evenly;
+    width:auto;
+    height: auto;
+   
+   
+}
+.imagen_caja1{
+    width: auto;
+    height: auto;
+
+
+
+}
+.imagen1_nosotros{
+    width: 500px;
+    height:auto;
+    display: flex;
+    border-radius: 50px;
+    border-style: groove;
+        
+}
+.texto_caja1{
+    width: 60%;
+    height:auto ;
+
+    
+}
+
+.texto_caja1 h1{
+    text-align: center;
+    padding-top: 30px;
+
+}
+.texto_caja1 p{
+    font-size: 1.3rem;
+    font-weight: lighter;
+    text-align: center;
+    padding-top: 30px;
+
+}
+
+
+.caja2_nosotros{
+    align-items: center;
+    box-sizing: border-box;
+    display:flex;
+    flex-flow: column;
+    width: auto;
+    width: auto;
+    justify-content: space-around;
+    flex-direction:row;
+    margin-top: 30px;
+    position: relative;
+    gap: 10px;
+    margin-bottom: 20px;
+    color:#050449;
+    margin: 5px;
+    width: auto;
+    height: auto;
+
+}
+.caja2_nosotros h1{
+    font-size: 1.3rem;
+    font-weight: lighter;
+    text-align: center;
+}
+.mision{
+    border: solid 5px #050449;
+    border-radius: 50px;
+    border-style: groove;
+    text-align: center;
+    position: relative;
+    width: auto;
+    height: 100%;
+
+}
+.mision p{
+    font-size: 1.3rem;
+    font-weight: lighter;
+    position: relative;
+}
+.mision h2{
+    text-align: center;
+    padding: 16px;
+}
+.vision{
+    border: solid 5px #050449;
+    border-radius: 50px;
+    border-style: groove;
+    position: relative;
+    text-align: center;
+    width: auto;
+    height: 100%;
+}
+.vision p{
+    font-size: 1.3rem;
+    font-weight: lighter;
+    position: relative;
+}
+.vision h2{
+    text-align: center;
+    padding: 16px;
+}
+.valores{
+    border: solid 5px #050449;
+    border-radius: 50px;
+    border-style: groove;
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+}
+.valores h2{
+    text-align: center;
+    padding: 16px;
+
+}
+
+.valores ul li{
+    font-size: 1.3rem;
+    font-weight: lighter;
+    position: relative;
+    list-style-type: none;
+    margin: 14px;
+    text-align: center;
+
+}
+
+.titulo_caja2_nosotros{
+    width: auto;
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+    color: #050449;
+    
+}
+/* ? ------------- servicios ------------- */
+
+.caja1_serv{
+
+}
+
+.titulo_serv{
+    flex-direction: column row;
+    width: 100%;
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+    color: #050449;
+    border-radius: 50px;
+    border-style: groove ;
+    padding-top: 2vh;
+        
+}
+.sub_titulo_servicio{
+    padding: 40px;
+    text-align: center;
+    width: 100%;
+    color: #050449;
+    
+}
+
+.imagen_serv{
+    margin-top: 10px;
+    align-items: center;
+
+
+}
+.tamano_serv{
+    width: 200px;
+    height: 180px;
+}
+.caja1_tarjetas_servicios{
+
+    width: 100%;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    gap: 15px;
+    padding-top: 5vh;
+    padding-bottom: 10vh;
+
+   
+}
+.caja2_tarjetas_servicios{
+
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    gap: 15px;
+    padding-bottom: 5vh;
+    position: relative;
+}
+.tamano_serv{
+    width: 200px;
+    height: 180px;
+}
+
+.li_consultas{
+    list-style-type: none;
+}
+.li_contactologia{
+    list-style-type: none;
+}
+.li_cristales{
+    list-style-type: none;
+}
+.li_monturas{
+    list-style-type: none;
+}
+.li_lentes{
+    list-style-type: none;
+}
+.li_reparacion{
+    list-style-type: none;
+   
+}
+
+
+.tarjeta_servicio{
+
+    width:20vw;
+    height: auto;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    align-items: center;
+    color: rgb(84, 84, 81);
+    box-shadow: 3px 3px 5px #888585;
+    border-radius: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+    color: #050449;
+
+}
+
+.texto_serv{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.detalles_serv{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.detalles_serv ul li{
+    font-weight: lighter;
+    position: relative;
+    list-style-type: none;
+    text-align: center;
+    margin: -5px;
+}
+
+.boton_a_serv{
+    cursor: pointer;
+    text-align: center;
+    padding-top: 2vh;
+    padding-bottom: 1vh;
+
+}
+.boton1_serv{
+    background-color: rgb(166, 213, 166);
+    padding: 10px;
+    border-style: none;
+    border: none;
+    border-radius: 5px;
+    color: #050449;
+    cursor: pointer;
+    font-weight: bold;
+
+}
+
+
+.boton_b_serv{
+    cursor: pointer;
+    text-align: center;
+    padding-top: 2vh;
+    padding-bottom: 1vh;
+   
+    
+}
+.boton2_serv{
+
+    background-color: rgb(166, 213, 166);
+    padding: 10px;
+    border-style: none;
+    border: none;
+    border-radius: 5px;
+    color: #050449;
+    cursor: pointer;
+    font-weight: bold;
+
+}
+.boton_c_serv{
+    cursor: pointer;
+    text-align: center;
+    padding-top: 2vh;
+    padding-bottom: 1vh;
+    
+}
+.boton3_serv{
+    background-color: rgb(166, 213, 166);
+    padding: 10px;
+    border-style: none;
+    border: none;
+    border-radius: 5px;
+    color: #050449;
+    cursor: pointer;
+    font-weight: bold;
+
+}
+.boton_d_serv{
+    cursor: pointer;
+    text-align: center;
+    padding-top: 2vh;
+    padding-bottom: 1vh;
+    
+}
+.boton4_serv{
+    background-color: rgb(166, 213, 166);
+    padding: 10px;
+    border-style: none;
+    border: none;
+    border-radius: 5px;
+    color: #050449;
+    cursor: pointer;
+    font-weight: bold;
+
+}
+.boton_e_serv{
+    cursor: pointer;
+    text-align: center;
+    padding-top: 2vh;
+    padding-bottom: 1vh;
+}
+
+.boton5_serv{
+    background-color: rgb(166, 213, 166);
+    padding: 10px;
+    border-style: none;
+    border: none;
+    border-radius: 5px;
+    color: #050449;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.boton_f_serv{
+    cursor: pointer;
+    text-align: center;
+    padding-top: 2vh;
+    padding-bottom: 1vh;
+}
+.boton6_serv{
+    background-color: rgb(166, 213, 166);
+    padding: 10px;
+    border-style: none;
+    border: none;
+    border-radius: 5px;
+    color: #050449;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+.tarjeta:hover .boton1_serv{
+    
+    background-color: rgb(72, 72, 69);
+}
+.tarjeta:hover .boton_a_serv{
+    
+    background-color: rgb(72, 72, 69);
+}
+
+
+.tarjeta:hover .boton2_serv{
+    background-color: rgb(36, 22, 233);
+}
+.tarjeta:hover .boton_b_serv{
+    background-color: rgb(36, 22, 233);
+}
+
+
+.tarjeta:hover .boton3_serv{
+    background-color: rgb(141, 21, 205);
+}
+.tarjeta:hover .boton_c_serv{
+    background-color: rgb(141, 21, 205);
+}
+
+.tarjeta:hover .boton4_serv{
+    
+    background-color: rgb(75, 225, 62);
+}
+.tarjeta:hover .boton_d_serv{
+    
+    background-color: rgb(75, 225, 62);
+}
+.tarjeta:hover .boton5_serv{
+    
+    background-color: rgb(72, 72, 69);
+}
+.tarjeta:hover .boton_e_serv{
+    
+    background-color: rgb(72, 72, 69);
+}
+
+.tarjeta:hover .boton6_serv{
+    
+    background-color: rgb(72, 72, 69);
+}
+.tarjeta:hover .boton_f_serv{
+    
+    background-color: rgb(72, 72, 69);
+}
+
+
+/* ? ------------- contactenos ------------- */
+
+.caja_Contactenos{
+    display: flex;
+    flex-flow: column wrap;
+    flex-direction: row;
+    width: 100vw;
+    background-color: aliceblue;
+
+}
+.title_c{
+
+    width: 100%;
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+    color: #050449;
+    border-radius: 50px;
+    border-style: groove ;
+    padding-top: 2vh;
+    position: relative;
+}
+.form_map{
+    width: 100%;
+    height: auto;
+    margin: 5vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.formulario{
+
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    margin: 10px;
+    position: relative;
+    bottom: 5px;
+    top: 1px;
+    color: #050449;
+    justify-content: center;
+}
+.rellenar{
+    border: solid 1px #050449;
+    border-style: groove;
+    border-radius: 5px;
+    width: auto;
+    height: 5vh;
+    margin: 3px;
+
+
+}
+
+.mapa_contacto{
+    margin: 3px;
+    padding: 5px;
+    width: 45%;
+    height: auto;
+    justify-content: center;
+    position: relative;
+    box-sizing: border-box;
+    display: flex;
+
+}
+textarea{
+    color: rgb(166, 213, 166);
+    background-color: #050449;
+    width: auto;
+    padding: 10px;
+    border-style: solid;
+    border:2px solid rgb(166, 213, 166);
+    border-radius: 5px;
+}
+.botton2{
+    background-color: rgb(166, 213, 166);
+    padding: 10px;
+    border-style: none;
+    border: none;
+    border-radius: 5px;
+    color: #050449;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* ? ------------- BLOGS ------------- */
+
+.titulo_blogs{
+    flex-direction: column row;
+    width: 100%;
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+    color: #050449;
+    border-radius: 50px;
+    border-style: groove ;
+    padding-top: 2vh;
+
+        
+}
+.titulo_blogs P{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: #050449;
+    width: 100%;
+    flex-direction: column row;
+    padding-top: 2vh;
+}
+
+
+
+
+/* ? ------------- monturas ------------- */
+
+.caja_monturas{
+    background-color: white;
+    padding: 20px;
+    width: 90%;
+    height: 100%;
+    justify-content: center;
+    margin: 10px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    column-gap:10px;
+    transition: 300ms;
+}
+.lentes{
+    width: 300px;
+    height: 430px;
+    border: 5px solid white;
+}
+
+
+
+@media screen and ( min-width:768px){
+    .contenedor1_section{
+        flex: 100%;
+    }
+    .imag_principal{
+        flex: 100%;
+    }
+
+    
+}
+
+
+
+
+
+
+
