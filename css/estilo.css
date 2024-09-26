@@ -167,6 +167,7 @@ section{
     font-size: 2rem;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
+
 }
 .contenedor1{
     width: 100%;
@@ -176,6 +177,7 @@ section{
     gap: 15px;
     padding-top: 5vh;
     padding-bottom: 10vh;
+   
 
 
 }
@@ -226,9 +228,9 @@ section{
     flex-direction: column;
     background-color: white;
     align-items: center;
-    color: rgb(84, 84, 81);
+    color: #050449;
     box-shadow: 3px 3px 5px #888585;
-    border-radius: 1px;
+    border-radius: 10px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     cursor: pointer;
 
@@ -241,11 +243,13 @@ section{
     margin-top: 10px;
     display: flex;
     flex-direction: column;
+    color: #050449;
 }
 .detalles{
     display: flex;
     flex-direction: column;
     text-align: center;
+    color: #050449;
 }
 .price1{
     font-size: 24px;
@@ -538,30 +542,30 @@ footer ul li{
 
 
 .caja1_nosotros{
-    background-color:rgb(166, 213, 166);
-    box-sizing: border-box;
+
+    width: 100%;
     display: flex;
-    flex-flow:wrap;
-    position: relative;
-    justify-content: space-evenly;
-    width:auto;
-    height: auto;
+    flex-flow: wrap;
+    justify-content: center;
+    gap: 15px;
+    padding-top: 5vh;
    
    
 }
 .imagen_caja1{
-    width: auto;
+    width: 500px;
     height: auto;
 
 
 
 }
 .imagen1_nosotros{
-    width: 500px;
-    height:auto;
+    width: 100%;
+    height: auto;
     display: flex;
-    border-radius: 50px;
+    border-radius: 25px;
     border-style: groove;
+    margin-bottom: 5vh;
         
 }
 .texto_caja1{
@@ -580,43 +584,43 @@ footer ul li{
     font-size: 1.3rem;
     font-weight: lighter;
     text-align: center;
-    padding-top: 30px;
+    padding-top: 7vh;
+    padding-bottom: 7vh;
+
 
 }
+.titulo_caja2_nosotros{
 
+    width: 100%;
+    font-size: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
 
-.caja2_nosotros{
-    align-items: center;
-    box-sizing: border-box;
-    display:flex;
-    flex-flow: column;
-    width: auto;
-    width: auto;
-    justify-content: space-around;
-    flex-direction:row;
-    margin-top: 30px;
-    position: relative;
-    gap: 10px;
-    margin-bottom: 20px;
-    color:#050449;
-    margin: 5px;
-    width: auto;
-    height: auto;
+.caja2_nosotros {
+
+    width: 100%;
+    display: flex;
+    flex-flow:column row;
+    gap: 15px;
+    padding: 5vh;
 
 }
-.caja2_nosotros h1{
+.caja2_nosotros h2{
     font-size: 1.3rem;
-    font-weight: lighter;
     text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: #050449;
 }
 .mision{
-    border: solid 5px #050449;
-    border-radius: 50px;
+    border: solid 3px ;
+    border-radius: 25px;
     border-style: groove;
     text-align: center;
     position: relative;
-    width: auto;
-    height: 100%;
+    width: 100%;
+    height: auto;
 
 }
 .mision p{
@@ -629,13 +633,13 @@ footer ul li{
     padding: 16px;
 }
 .vision{
-    border: solid 5px #050449;
-    border-radius: 50px;
+    border: solid 3px ;
+    border-radius: 25px;
     border-style: groove;
-    position: relative;
     text-align: center;
-    width: auto;
-    height: 100%;
+    position: relative;
+    width: 100%;
+    height: auto;
 }
 .vision p{
     font-size: 1.3rem;
@@ -647,12 +651,15 @@ footer ul li{
     padding: 16px;
 }
 .valores{
-    border: solid 5px #050449;
-    border-radius: 50px;
+    border: solid 3px ;
+    border-radius: 25px;
     border-style: groove;
+    text-align: center;
     position: relative;
     width: 100%;
-    height: 100%;
+    height: auto;
+
+    
 
 }
 .valores h2{
@@ -682,36 +689,45 @@ footer ul li{
 /* ? ------------- servicios ------------- */
 
 .caja1_serv{
-
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .titulo_serv{
-    flex-direction: column row;
+
     width: 100%;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
     text-align: center;
     color: #050449;
-    border-radius: 50px;
+    border-radius:25px;
     border-style: groove ;
     padding-top: 2vh;
+
         
 }
+.titulo_serv p{
+    font-size: 1.5rem;
+    font-style: oblique;
+    font-weight: lighter;
+
+}
 .sub_titulo_servicio{
-    padding: 40px;
+    padding-top: 5vh;
     text-align: center;
     width: 100%;
     color: #050449;
     
 }
-
 .imagen_serv{
     margin-top: 10px;
     align-items: center;
 
 
 }
+
 .tamano_serv{
     width: 200px;
     height: 180px;
@@ -724,25 +740,17 @@ footer ul li{
     justify-content: center;
     gap: 15px;
     padding-top: 5vh;
-    padding-bottom: 10vh;
 
    
 }
 .caja2_tarjetas_servicios{
 
-    width: auto;
-    height: auto;
+    width: 100%;
     display: flex;
-    flex-wrap: wrap;
+    flex-flow: wrap;
     justify-content: center;
-    flex-direction: row;
     gap: 15px;
     padding-bottom: 5vh;
-    position: relative;
-}
-.tamano_serv{
-    width: 200px;
-    height: 180px;
 }
 
 .li_consultas{
@@ -768,26 +776,25 @@ footer ul li{
 
 .tarjeta_servicio{
 
-    width:20vw;
-    height: auto;
-    margin: 20px;
+    width: 300px;;
+    height: 410px;
+    margin: 3vh;
     display: flex;
     flex-direction: column;
     background-color: white;
     align-items: center;
-    color: rgb(84, 84, 81);
-    box-shadow: 3px 3px 5px #888585;
+    color: #050449;
+    box-shadow: 3px 3px 5px  #050449;
     border-radius: 10px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     cursor: pointer;
-    color: #050449;
 
 }
 
 .texto_serv{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-bottom: 20px;
-    margin-top: 10px;
+    margin-top: 20px;
     display: flex;
     flex-direction: column;
 }
@@ -972,33 +979,38 @@ footer ul li{
 /* ? ------------- contactenos ------------- */
 
 .caja_Contactenos{
+    padding: 5px;
     display: flex;
-    flex-flow: column wrap;
-    flex-direction: row;
-    width: 100vw;
-    background-color: aliceblue;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    width: 100%;
+
 
 }
 .title_c{
 
     width: 100%;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
     text-align: center;
     color: #050449;
-    border-radius: 50px;
+    border-radius: 25px;
     border-style: groove ;
     padding-top: 2vh;
-    position: relative;
+
+
+
 }
 .form_map{
+
+    box-sizing: border-box; 
     width: 100%;
-    height: auto;
-    margin: 5vh;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    flex-flow: wrap;
+    justify-content: center;
+    gap: 15px;
+    padding-top: 5vh;
 
 }
 .formulario{
@@ -1010,8 +1022,8 @@ footer ul li{
     padding: 5px;
     margin: 10px;
     position: relative;
-    bottom: 5px;
-    top: 1px;
+    bottom: 2.5vh;
+    top: 1vh;
     color: #050449;
     justify-content: center;
 }
@@ -1039,7 +1051,7 @@ footer ul li{
 }
 textarea{
     color: rgb(166, 213, 166);
-    background-color: #050449;
+    background-color: white;
     width: auto;
     padding: 10px;
     border-style: solid;
@@ -1060,53 +1072,24 @@ textarea{
 /* ? ------------- BLOGS ------------- */
 
 .titulo_blogs{
-    flex-direction: column row;
+
+
     width: 100%;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
     text-align: center;
     color: #050449;
-    border-radius: 50px;
+    border-radius: 25px;
     border-style: groove ;
     padding-top: 2vh;
-
         
 }
 .titulo_blogs P{
-    font-family: 'Times New Roman', Times, serif;
+
     font-size: 1.5rem;
-    font-weight: bold;
-    text-align: center;
-    color: #050449;
-    width: 100%;
-    flex-direction: column row;
-    padding-top: 2vh;
-}
-
-
-
-
-/* ? ------------- monturas ------------- */
-
-.caja_monturas{
-    background-color: white;
-    padding: 20px;
-    width: 90%;
-    height: 100%;
-    justify-content: center;
-    margin: 10px;
-    position: relative;
-    display: flex;
-    flex-wrap: wrap;
-    row-gap: 10px;
-    column-gap:10px;
-    transition: 300ms;
-}
-.lentes{
-    width: 300px;
-    height: 430px;
-    border: 5px solid white;
+    font-style: oblique;
+    font-weight: lighter;
 }
 
 
